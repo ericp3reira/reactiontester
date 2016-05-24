@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#site-container {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#info {
+  float: left;
+}
+#game-canvas {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+#start {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  text-align: center;
+}
+#shape {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: none;
+}
